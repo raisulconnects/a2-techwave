@@ -1,5 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+/* @keyframes bouncingeffect {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+} */
+
+@keyframes bouncingeffect {
+  from {
+    background-color: hsl(152, 100%, 50%);
+    transform: translateY(0);
+  }
+  to {
+    background-color: hsla(152, 100%, 50%, 0.9);
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes scaleeffect {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.09);
+  }
+}
+
 * {
   font-family: Inter;
   margin: 0;
@@ -97,6 +126,8 @@ body {
   position: relative;
   top: 10%;
   margin-bottom: 40px;
+
+  animation: scaleeffect 1s linear 0s infinite alternate;
 }
 
 .hero-middle-mic {
@@ -117,6 +148,8 @@ body {
   top: 10%;
   right: 20%;
   z-index: 99;
+
+  animation: bouncingeffect 0.8s linear 0s infinite alternate;
 }
 
 .hero-container-bottom {
