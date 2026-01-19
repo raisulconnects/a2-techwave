@@ -12,7 +12,7 @@ body {
   color: white;
 }
 
-/* Navbar */
+/* --------------------- Navbar --------------------- */
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,4 +64,64 @@ body {
   font-weight: 600;
   color: white;
   background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+}
+
+/* --------------------- Hero Section --------------------- */
+.hero-container {
+  background-image: url("./assets/hero-bg.png");
+  height: 100vh;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.hero-middle-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+.hero-middle-mic {
+  position: absolute;
+  top: 20%;
+}
+
+.hero-container-bottom {
+  text-align: center;
+}
+
+.hero-container-bottom > h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero-container-bottom > p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.hero-container-bottom-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.btn-hero-message {
+  background: transparent;
+  border: 1px solid green;
 }
