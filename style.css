@@ -140,3 +140,51 @@ body {
   background: transparent;
   border: 1px solid green;
 }
+
+/* --------------------- About Section --------------------- */
+.about-container {
+  width: 71%;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+}
+
+.about hr {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.about-description h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.about-description pre {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.about-stats {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 120px;
+}
+
+.about-stats .stat h1 {
+  font-size: 48px;
+  line-height: auto;
+  margin-bottom: 16px;
+  color: #00ff88;
+}
+
+.about-stats .stat p {
+  font-size: 16px;
+  font-weight: 200;
+}
