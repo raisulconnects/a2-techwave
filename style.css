@@ -99,6 +99,21 @@ body {
   top: 20%;
 }
 
+.hero-middle-badge {
+  padding: 8px 16px;
+  box-shadow: 0px 3px 27px #00ff88c2;
+  color: black;
+  background-color: #00ff88;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 1000px;
+
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  z-index: 99;
+}
+
 .hero-container-bottom {
   text-align: center;
 }
