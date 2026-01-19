@@ -49,6 +49,8 @@ body {
 
 .nav ul li {
   cursor: pointer;
+
+  transition: all 0.3s ease;
 }
 
 .btn-primary {
@@ -64,6 +66,8 @@ body {
   font-weight: 600;
   color: white;
   background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+
+  transition: all 0.3s linear;
 }
 
 /* --------------------- Hero Section --------------------- */
@@ -91,7 +95,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 15%;
+  top: 10%;
   margin-bottom: 40px;
 }
 
@@ -363,6 +367,8 @@ hr {
   padding: 12.5px;
   border-radius: 50%;
   cursor: pointer;
+
+  transition: all 0.3s linear;
 }
 
 /* --------------------- Footer Section --------------------- */
@@ -396,6 +402,10 @@ hr {
   align-items: center;
   gap: 8px;
   cursor: pointer;
+
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
 }
 
 .footer-head {
@@ -408,4 +418,25 @@ hr {
 .footer-copyright {
   font-size: 16px;
   font-weight: 100;
+}
+
+/* ALL THE HOVER Effects */
+.btn-primary:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 4px 30px #a72020;
+  color: #6e0909;
+}
+
+.nav ul li:hover {
+  transform: translate(0, -2px) scale(1.1);
+}
+
+.footer-soc:hover {
+  transform: translate(0, -4px);
+  box-shadow: 2px 4px 30px #472a6d;
+}
+
+.meet-host-socials .social:hover {
+  margin: 0px 12px;
+  transform: scale(1.2);
 }
