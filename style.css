@@ -357,3 +357,46 @@ body {
 }
 
 /* --------------------- Footer Section --------------------- */
+
+.footer-container {
+  background-image: url("./assets/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 412px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.footer-head {
+  margin-top: 70px;
+}
+
+.footer-head .logo {
+  font-size: 100px;
+}
+.footer-copyright {
+  font-size: 16px;
+  font-weight: 100;
+}
