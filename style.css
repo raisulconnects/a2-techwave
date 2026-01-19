@@ -201,7 +201,9 @@ body {
   background-color: #230e3d;
 }
 
-.techwave > h1 {
+.techwave > h1,
+.featured-container > h1,
+.meet-host-container > h1 {
   text-align: center;
   padding-top: 120px;
   margin-bottom: 40px;
@@ -255,3 +257,103 @@ body {
 .grid-reso {
   grid-area: reso;
 }
+
+/* --------------------- Features Section --------------------- */
+.featured-container {
+  width: 71%;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  background-color: #250d44;
+  /* border: 1px solid red; */
+  width: 380px;
+  border-radius: 20px;
+}
+
+.feature iframe {
+  width: 380px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.feature-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 24px 60px 24px;
+  /* border: 1px solid red; */
+}
+
+.feature-description h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.feature-description p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* --------------------- Meet The Host Section --------------------- */
+
+.meet-host-container {
+  width: 71%;
+  margin: 0 auto;
+}
+
+.meet-host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  background-color: hsla(266, 71%, 23%, 0.4);
+  border-radius: 40px;
+  margin-bottom: 120px;
+}
+
+.meet-host .host-img {
+  margin: 40px 24px 40px 40px;
+}
+
+.meet-host-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.meet-host-desc h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.meet-host-desc p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.meet-host-socials {
+  display: flex;
+  gap: 8px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #533c72;
+  padding: 12.5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* --------------------- Footer Section --------------------- */
