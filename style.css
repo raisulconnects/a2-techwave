@@ -188,3 +188,70 @@ body {
   font-size: 16px;
   font-weight: 200;
 }
+
+/* --------------------- TechWave Section --------------------- */
+.techwave-bg {
+  background-color: #230e3d;
+  height: 1121px;
+}
+
+.techwave-container {
+  width: 71%;
+  margin: 0 auto;
+  background-color: #230e3d;
+}
+
+.techwave > h1 {
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.reason {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: rgba(53, 17, 101, 0.4);
+  /* border: 1px solid red; */
+  border-radius: 40px;
+  padding: 40px 40px;
+}
+
+.reason h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.reason p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.techwave-reasons {
+  display: grid;
+  grid-template: "aud mob mob" "aud loc loc" "headp headp reso";
+  gap: 30px;
+}
+
+.grid-aud {
+  grid-area: aud;
+  padding-top: 107px;
+}
+
+.grid-mob {
+  grid-area: mob;
+}
+
+.gird-loc {
+  grid-area: loc;
+}
+
+.grid-headp {
+  grid-area: headp;
+}
+
+.grid-reso {
+  grid-area: reso;
+}
