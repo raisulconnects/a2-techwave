@@ -353,8 +353,9 @@ hr {
 /* --------------------- Meet The Host Section --------------------- */
 
 .meet-host-container {
-  width: 71%;
+  width: 1200px;
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 .meet-host {
@@ -611,6 +612,11 @@ hr {
     justify-content: center;
     align-items: center;
     padding-bottom: 24px;
+  }
+
+  .meet-host-container {
+    width: 66%;
+    /* border: 1px solid red; */
   }
 
   /* Footer Section */
