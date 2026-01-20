@@ -571,10 +571,45 @@ hr {
   }
 
   /* Featured Section */
+
+  .featured-container > h1 {
+    font-size: 32px;
+  }
+
   .features {
     flex-direction: column;
     gap: 16px;
   }
 
   /* Meet The Host Section */
+
+  .meet-host-container > h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 60px;
+  }
+
+  .meet-host {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .meet-host-desc > h1 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 0px;
+  }
+
+  .meet-host-desc > p {
+    font-size: 16px;
+    padding: 0px 24px;
+    text-align: center;
+    /* padding-bottom: 16px; */
+  }
+
+  .meet-host-socials {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+  }
 }
