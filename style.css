@@ -569,4 +569,12 @@ hr {
   .techwave-bg {
     height: 1600px;
   }
+
+  /* Featured Section */
+  .features {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  /* Meet The Host Section */
 }
