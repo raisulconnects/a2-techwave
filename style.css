@@ -473,3 +473,40 @@ hr {
   margin: 0px 12px;
   transform: scale(1.2);
 }
+
+.dhekedao {
+  display: none;
+}
+
+/* Default For Largers */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 576px) {
+  /* Navbar */
+  .nav-container .btn-primary,
+  .nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  /* Hero Section */
+  @keyframes scaleeffect {
+    from {
+      transform: scale(0.7);
+    }
+    to {
+      transform: scale(0.8);
+    }
+  }
+
+  .hero-middle-circle {
+    animation: scaleeffect 1s ease-in 0s infinite alternate;
+  }
+}
