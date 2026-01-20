@@ -506,6 +506,9 @@ hr {
   .hero-container-bottom {
     padding-top: 24px;
   }
+  .hero-container-bottom p {
+    width: 100%;
+  }
   .hero-container-bottom-btns {
     margin-top: 24px;
     transform: scale(1.1);
