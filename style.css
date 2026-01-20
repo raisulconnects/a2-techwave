@@ -542,4 +542,31 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
+
+  /* TechWave Section */
+  .techwave > h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .techwave-reasons {
+    display: grid;
+    grid-template:
+      "aud"
+      "aud"
+      "mob"
+      "loc"
+      "headp"
+      "headp"
+      "reso";
+    gap: 16px;
+  }
+
+  .grid-aud {
+    padding-top: 24px;
+  }
+
+  .techwave-bg {
+    height: 1600px;
+  }
 }
