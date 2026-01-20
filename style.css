@@ -484,7 +484,7 @@ hr {
   cursor: pointer;
 }
 
-/* Responsiveness */
+/* ----------------------------------------- Responsiveness ----------------------------------------- */
 @media screen and (max-width: 576px) {
   /* Navbar */
   .nav-container .btn-primary,
@@ -525,5 +525,21 @@ hr {
 
   .hero-middle-circle {
     animation: scaleeffect 1s ease-in 0s infinite alternate;
+  }
+
+  /* About Section */
+  .about-description > h1 {
+    font-size: 32px;
+  }
+
+  .about-description > pre {
+    font-size: 16px;
+    text-wrap: wrap;
+  }
+
+  .about-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 }
