@@ -497,6 +497,20 @@ hr {
   }
 
   /* Hero Section */
+  .hero {
+    gap: 0px;
+  }
+  .hero-middle-circle {
+    /* margin-bottom: 24px; */
+  }
+  .hero-container-bottom {
+    padding-top: 24px;
+  }
+  .hero-container-bottom-btns {
+    margin-top: 24px;
+    transform: scale(1.1);
+  }
+
   @keyframes scaleeffect {
     from {
       transform: scale(0.7);
